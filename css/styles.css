@@ -1,0 +1,37 @@
+html, body, .container {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.row {
+  height: 92%;
+}
+
+.left, .right {
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.center {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  html, body, .container, .row, .left, .right {
+    height: auto;
+    overflow: auto;
+  }
+}
